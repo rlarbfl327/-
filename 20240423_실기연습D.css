@@ -1,0 +1,85 @@
+@charset "UTF-8"
+
+*{
+    width: 0;
+    height: 0;
+}
+
+html{
+    list-style-type: none;
+    text-decoration: none;
+    font-family: '맑은 고딕', Helvetica, sans-serif;
+    color: #333;
+    font-size: ;
+}
+
+body{}
+
+main{
+    display: flex;
+    background-color: #bcbad4;
+}
+
+aside{
+    width: 200px;
+    background-color: #c1c1e2;
+}
+    header{
+        height: 100px;
+        background-color: #b0b0d3;
+    }
+    .h_logo{}
+    nav{
+        height: 400px;
+        background-color: #bdbeca;
+    }
+    ul{
+        height: 50px;
+    }
+
+#content{
+    width: calc(100% - 200px);
+    flex: 1;
+}
+    #slider{
+        height: 400px;
+        position: relative;
+    }
+    .s_image{
+        height: 400px;
+        background-color: #b4b6d1;
+    }
+    .s_banner{
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: #9ba1bd;
+        width: 180px;
+        height: 300px;
+    }
+
+    #items{}
+        .shortcut{
+            height: 200px;
+            background-color: #aeaed6
+        }
+        .notice{
+            height: 250px;
+            background-color: #d6dae6;
+        }
+
+footer{
+    display: flex;
+    height: 100px;
+}
+    .f_logo{
+        width: 200px;
+        background-color: #d7d8df;
+    }
+    .copyright{
+        flex: 1;
+    }
+    .sns{
+        width: 260px;
+        background-color: #c4c6e7;
+    }
