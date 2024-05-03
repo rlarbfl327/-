@@ -1,0 +1,100 @@
+
+*{
+    margin: 0; /*바깥여백 초기화*/
+    padding: 0; /*안쪽여백 초기화*/
+    /*text-decoration: none; - 링크는 밑줄 없애도록a href="#"*/
+    font-size: 100%;
+    font-family: 'Arial', Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+html{
+    margin: 0 auto; /*가운데 정렬을 유도하는 가장 기본 방식*/
+}
+body{}
+
+/*전체 랩 씌운 영역*/
+#box{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*머리*/
+header{
+    width: 1200px;
+    height: 100px;
+    background-color: rgb(220, 199, 233);
+}
+.logo{
+    width: 250px;
+    height: 100%;
+    background-color: rgb(255, 248, 190);
+    float: left;
+}
+
+nav{
+    width: 900px;
+    height: 100%;
+    background-color: rgb(178, 189, 202);
+    float: right;
+}
+
+/*슬라이더*/
+section:first-of-type{
+    clear: both;
+    width: 1200px;
+    height: 300px;
+    background-color: rgb(197, 208, 255);
+}
+
+/*배너*/
+section:last-of-type{}
+.boxes{
+    width: 1200px;
+    height: 200px;
+    background-color: rgb(255, 255, 176);
+}
+.tab_box{
+    width: 400px;
+    height: 100%;
+    background-color:rgb(184, 155, 240);
+    float: left;
+}
+.banner_box{
+    width: 400px;
+    height: 100%;
+    background-color:rgb(218, 255, 246);
+    float: left;
+}
+.icon_box{
+    width: 400px;
+    height: 100%;
+    background-color:rgb(166, 180, 212);
+    float: left;
+}
+
+/*바닥*/
+/*이 친구는 한 번 더 중간관리자를 안묶었는데 되고 있군요 아주 좋은...그러나 특히 콘첸츠 부분에서 float 작성시 중간 묶는 태그가 없을 때 틀어지는 기현상잉 종종 발생되므로, 오류가 있을 때 한번 꼭 중간관리자용 div를 생성하여 관리해주시면 좋을 것 같습니다 : )*/
+footer{
+    width: 1200px;
+    height: 100px;
+    background-color: rgb(154, 154, 212);
+    clear: both;
+}
+.down_logo{
+    width: 250px;
+    height: 100%;
+    background-color:rgb(255, 212, 212);
+    float: left;
+}
+.copyright{
+    width: 700px;
+    height: 100%;
+    background-color:rgb(255, 243, 225);
+    float: left;
+}
+.sns{
+    width: 250px;
+    height: 100%;
+    background-color:rgb(255, 196, 196);
+    float: left;
+}
